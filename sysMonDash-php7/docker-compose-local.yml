@@ -10,4 +10,4 @@ services:
       - /home/xxxx/DEV/DOCKER/DATA/sysMonDash-dev/web:/var/www/html/sysMonDash
     environment:
       - SMD_UID=1000
-      - SMD_BRANCH=dummy
+      - SMD_BRANCH=master

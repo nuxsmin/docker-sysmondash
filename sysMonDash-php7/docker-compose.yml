@@ -7,5 +7,5 @@ services:
     ports:
       - "80:80"
     environment:
-      - SMD_UID=1000
-      - SMD_BRANCH=dummy
+      - SMD_UID=9001
+      - SMD_BRANCH=master
