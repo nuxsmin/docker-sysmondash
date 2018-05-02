@@ -2,7 +2,7 @@ version: '2'
 services:
   app:
     container_name: sysmondash-app
-    image: nuxsmin/docker-sysmondash:php7
+    image: nuxsmin/docker-sysmondash
     restart: always
     ports:
       - "80:80"
