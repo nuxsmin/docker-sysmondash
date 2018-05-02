@@ -1,0 +1,13 @@
+version: '2'
+services:
+  app:
+    container_name: sysmondash-app
+    image: nuxsmin/docker-sysmondash:php7
+    restart: always
+    ports:
+      - "127.0.0.1:10081:80"
+    volumes:
+      - /home/xxxx/DEV/DOCKER/DATA/sysMonDash-dev/web:/var/www/html/sysMonDash
+    environment:
+      - SMD_UID=1000
+      - SMD_BRANCH=dummy
